@@ -1,0 +1,49 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('484aeec8-069d-533f-af2d-0fbd3973345f')",
+  "id": "484aeec8-069d-533f-af2d-0fbd3973345f",
+  "displayName": "SKV365-CA-FL-003-RequireMDM",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-FL-AllUsers"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions",
+        "SKV365-CA-Global-NoIntuneLicence"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    },
+    "platforms": {
+      "includePlatforms": [
+        "iOS",
+        "android"
+      ],
+      "excludePlatforms": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "compliantDevice",
+      "approvedApplication"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "sessionControls": null
+}

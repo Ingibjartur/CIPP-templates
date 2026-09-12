@@ -1,0 +1,37 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('98d7b45d-6645-5397-8dc7-52e1a4db144c')",
+  "id": "98d7b45d-6645-5397-8dc7-52e1a4db144c",
+  "displayName": "SKV365-CA-Prem-004-ContinuousAccessEval",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": null,
+  "sessionControls": {
+    "continuousAccessEvaluation": {
+      "mode": "strictEnforcement"
+    }
+  }
+}

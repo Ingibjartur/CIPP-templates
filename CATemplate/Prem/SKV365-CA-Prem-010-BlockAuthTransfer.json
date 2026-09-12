@@ -1,0 +1,43 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('22087887-d73c-5f47-bfd9-c06f16e0fb30')",
+  "id": "22087887-d73c-5f47-bfd9-c06f16e0fb30",
+  "displayName": "SKV365-CA-Prem-010-BlockAuthTransfer",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    },
+    "authenticationFlows": {
+      "transferMethods": "authenticationTransfer"
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "sessionControls": null
+}

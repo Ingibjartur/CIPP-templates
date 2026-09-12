@@ -1,0 +1,43 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('9690b030-323c-5e36-8ac4-39c35abab7fe')",
+  "id": "9690b030-323c-5e36-8ac4-39c35abab7fe",
+  "displayName": "SKV365-CA-Prem-003-BlockSensitiveDownload",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "browser"
+    ],
+    "applications": {
+      "includeApplications": [
+        "Office365"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    },
+    "devices": {
+      "deviceFilter": {
+        "mode": "exclude",
+        "rule": "device.isCompliant -eq True"
+      }
+    }
+  },
+  "grantControls": null,
+  "sessionControls": {
+    "applicationEnforcedRestrictions": {
+      "isEnabled": true
+    }
+  }
+}

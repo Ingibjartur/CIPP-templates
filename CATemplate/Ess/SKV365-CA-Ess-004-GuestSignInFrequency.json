@@ -1,0 +1,48 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('d7cdee19-f348-5548-b4b1-87c99d1ae77e')",
+  "id": "d7cdee19-f348-5548-b4b1-87c99d1ae77e",
+  "displayName": "SKV365-CA-Ess-004-GuestSignInFrequency",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": [],
+      "includeGuestsOrExternalUsers": {
+        "guestOrExternalUserTypes": "internalGuest,b2bCollaborationGuest,b2bCollaborationMember,otherExternalUser",
+        "externalTenants": {
+          "membershipKind": "all"
+        }
+      }
+    }
+  },
+  "grantControls": null,
+  "sessionControls": {
+    "signInFrequency": {
+      "value": 24,
+      "type": "hours",
+      "isEnabled": true,
+      "frequencyInterval": "timeBased"
+    },
+    "persistentBrowser": {
+      "mode": "never",
+      "isEnabled": true
+    }
+  }
+}

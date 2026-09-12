@@ -1,0 +1,42 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('8122a418-f6e5-5f62-93c4-e45f05b3317b')",
+  "id": "8122a418-f6e5-5f62-93c4-e45f05b3317b",
+  "displayName": "SKV365-CA-FL-001-MobileMFA",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "mobileAppsAndDesktopClients",
+      "browser"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-FL-AllUsers"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions",
+        "SKV365-CA-Global-SharedDevices"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "sessionControls": null
+}

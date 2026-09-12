@@ -1,0 +1,44 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('34e8756b-d57f-58f2-a384-63d1d6c72e5f')",
+  "id": "34e8756b-d57f-58f2-a384-63d1d6c72e5f",
+  "displayName": "SKV365-CA-Prem-014-UserRiskPolicy",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    },
+    "userRiskLevels": [
+      "high"
+    ]
+  },
+  "grantControls": {
+    "operator": "AND",
+    "builtInControls": [
+      "mfa",
+      "passwordChange"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "sessionControls": null
+}

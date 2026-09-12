@@ -1,0 +1,39 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('dcbaf21e-8dac-52eb-bb43-88103bfd6361')",
+  "id": "dcbaf21e-8dac-52eb-bb43-88103bfd6361",
+  "displayName": "SKV365-CA-Prem-009-EnrollmentSignInFrequency",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeUserActions": [
+        "urn:user:registerdevice"
+      ]
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": null,
+  "sessionControls": {
+    "signInFrequency": {
+      "value": 0,
+      "type": "hours",
+      "isEnabled": true,
+      "frequencyInterval": "everyTime"
+    }
+  }
+}

@@ -1,5 +1,32 @@
 # Repo layout history
 
+## 2026-09-12 (5) - Prem-006 held back from the repo
+`SKV365-CA-Prem-006-ExternalTermsOfUse` removed from `CATemplate/Prem/`. It grants on a Terms of
+Use object referenced by tenant-specific ID; there is no repo-side template type for one and it
+cannot be referenced by display name, so the file could only ever ship a literal token.
+
+Definition and onboarding steps moved to `docs/pending/Prem-006-ExternalTermsOfUse.md`, as
+markdown rather than JSON so CIPP cannot pick it up by accident. Number 006 stays reserved.
+
+Prem is now 15 files numbered 001-005 and 007-016.
+
+## 2026-09-12 (4) - all tiers populated, all tiers renumbered
+Extracted the full CA set from SKV365 Command Center v2.3: 32 policies across Core (6), Ess (5),
+Prem (16), FL (3 shared frontline), FLLight (1), FLEss (1). All carry the `@odata` type markers
+and a deterministic `id`; all are report-only; all group and named-location references are
+display names.
+
+Folder changes: added `FL/` for the shared frontline policies, renamed `FLLite/` to `FLLight/` so
+folder names match the tier segment of each `displayName`. `FLCore/` stays empty by design.
+
+Renumbered every tier to close gaps - Core 006/007 became 005/006, Prem 002-017 became 001-016,
+FLLight 004 became 001. Full old-to-new map with new GUIDs in `RENAME-MAP.md`. Renaming changes
+the GUID, so renamed policies arrive in CIPP as new templates; only the two Core rows had ever
+been synced and need deleting.
+
+Core-004 and Core-005 keep the fixes made earlier today (named location by display name, Device
+Registration Service excluded) - those are in the repo but not yet in the Command Center.
+
 ## 2026-09-12 (3) - Core-006 DRS exclusion, Core-004 Iceland, named location template
 - `Core-006`: added Device Registration Service (`01cb2876-7ebd-4aa4-9cc9-d28bd4d359a9`) to
   `excludeApplications`. Microsoft enforces authentication-flows policies against that resource

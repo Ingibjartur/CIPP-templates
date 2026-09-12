@@ -1,0 +1,50 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('32130448-147e-55bd-96ec-e734d481cade')",
+  "id": "32130448-147e-55bd-96ec-e734d481cade",
+  "displayName": "SKV365-CA-Prem-011-IdleSessionTimeout",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "browser"
+    ],
+    "applications": {
+      "includeApplications": [
+        "Office365"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    },
+    "devices": {
+      "deviceFilter": {
+        "mode": "exclude",
+        "rule": "device.isCompliant -eq True"
+      }
+    }
+  },
+  "grantControls": null,
+  "sessionControls": {
+    "signInFrequency": {
+      "value": 3,
+      "type": "hours",
+      "isEnabled": true,
+      "frequencyInterval": "timeBased"
+    },
+    "persistentBrowser": {
+      "mode": "never",
+      "isEnabled": true
+    }
+  }
+}

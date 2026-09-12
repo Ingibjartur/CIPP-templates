@@ -1,0 +1,38 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('da74dbb9-0630-5356-8296-618703d4e29f')",
+  "id": "da74dbb9-0630-5356-8296-618703d4e29f",
+  "displayName": "SKV365-CA-Prem-012-WorkloadIdentityRisk",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "clientApplications": {
+      "includeServicePrincipals": [
+        "ServicePrincipalsInMyTenant"
+      ],
+      "excludeServicePrincipals": []
+    },
+    "servicePrincipalRiskLevels": [
+      "high"
+    ]
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "sessionControls": null,
+  "_note": "Requires Microsoft Entra Workload Identities Premium. Targets risky service principals, not users."
+}

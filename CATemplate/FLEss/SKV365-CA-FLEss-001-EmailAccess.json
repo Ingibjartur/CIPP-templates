@@ -1,0 +1,49 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('f5de503d-a9d0-58cd-a9a7-723e7ca9db8e')",
+  "id": "f5de503d-a9d0-58cd-a9a7-723e7ca9db8e",
+  "displayName": "SKV365-CA-FLEss-001-EmailAccess",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "mobileAppsAndDesktopClients"
+    ],
+    "applications": {
+      "includeApplications": [
+        "00000002-0000-0ff1-ce00-000000000000"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-FLEss-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions",
+        "SKV365-CA-Global-NoIntuneLicence"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    },
+    "platforms": {
+      "includePlatforms": [
+        "iOS",
+        "android"
+      ],
+      "excludePlatforms": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "approvedApplication",
+      "compliantDevice"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "sessionControls": null
+}

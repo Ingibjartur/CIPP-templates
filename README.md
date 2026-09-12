@@ -5,14 +5,25 @@ Source of truth for Wise's Skýjavakt Conditional Access baseline. CIPP syncs fr
 ## Layout
 
     CATemplate/
-      Core/      SKV365-CA-Core-*.json
-      Ess/
-      Prem/
-      FLLite/
-      FLCore/
-      FLEss/
+      Core/       6 policies   office users, baseline
+      Ess/        5 policies   Essential
+      Prem/      15 policies   Premium (006 reserved, created by hand - see docs/pending/)
+      FL/         3 policies   shared across ALL frontline segments
+      FLLight/    1 policy     Frontline Core (F1) specific
+      FLEss/      1 policy     Frontline Essential (F3) specific
+      FLCore/     empty        FLW Core (Business Basic) has no CA policies of its own
     NamedLocations/   country named locations referenced by the policies
     docs/             internal notes - not read by CIPP
+
+31 policies in the repo, extracted from SKV365 Command Center v2.3, plus one held back in
+`docs/pending/`.
+
+Folder name always matches the tier segment of the `displayName`. `FLCore` is deliberately
+empty: those users are covered by the three `FL-*` shared policies and by
+`SKV365-CA-FLLight-001-BlockDesktopAccess`, which targets `SKV365-CA-FLCore-Users` as well as
+`SKV365-CA-FLLight-Users` despite its name.
+
+Numbering is contiguous per tier. See `docs/RENAME-MAP.md` for the 2026-09-12 renumber.
 
 **The folder name does not select the template type.** CIPP classifies a repo template by its
 JSON content. `CATemplate/` is our own organising choice; the tier folder below it is the category
@@ -78,9 +89,15 @@ A policy deployed against an empty exclusion group has no break-glass path.
   break-glass exclusion and Core-004 excludes nothing. One deploy test settles both.
   The named location's `id` in this repo is our own deterministic value and will NOT match the
   object Graph creates in a tenant, so referencing it by ID is not an option.
+- `Prem-006-ExternalTermsOfUse` is **deliberately not in this repo**. It grants on a Terms of Use
+  object, which is per-tenant and cannot be referenced by name. Definition and manual creation
+  steps are in `docs/pending/Prem-006-ExternalTermsOfUse.md`, kept as markdown so CIPP cannot
+  pick it up. The number 006 is reserved - it is not a gap to close.
 - `Core-003` blocks Safari on iOS and Android for the Office 365 suite. Deliberate - app
   protection can only be satisfied by Edge on mobile. It does not cover Microsoft resources
   outside the Office 365 suite (Azure portal, Entra admin, Power BI) or third-party SSO apps.
+- The Command Center still emits the **old** JSON shape (no `@odata` markers, no `id`) and the
+  **old** policy numbering. Regenerating from it today undoes both. See CONFIRMATIONS.md 2.1.
 - Exclusion group existence is checked at deploy, membership is not. Confirm
   `SKV365-CA-Global-Exclusions` contains the break-glass accounts before enforcement.
 - Core tier numbering skips 005.

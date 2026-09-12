@@ -1,0 +1,41 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('f412d5d9-e9a5-5e8e-a431-d8d88e8ab593')",
+  "id": "f412d5d9-e9a5-5e8e-a431-d8d88e8ab593",
+  "displayName": "SKV365-CA-Prem-007-PhishResistantMFAAll",
+  "state": "enabledForReportingButNotEnforced",
+  "conditions": {
+    "clientAppTypes": [
+      "all"
+    ],
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": []
+    },
+    "users": {
+      "includeUsers": [],
+      "excludeUsers": [],
+      "includeGroups": [
+        "SKV365-CA-Prem-Users"
+      ],
+      "excludeGroups": [
+        "SKV365-CA-Global-Exclusions"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [],
+    "customAuthenticationFactors": [],
+    "termsOfUse": [],
+    "authenticationStrength": {
+      "id": "00000000-0000-0000-0000-000000000004"
+    }
+  },
+  "sessionControls": null
+}
