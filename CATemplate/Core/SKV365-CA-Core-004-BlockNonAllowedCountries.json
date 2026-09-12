@@ -1,4 +1,8 @@
 {
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('e0fa466b-d887-5bac-97af-9b91f6bfc090')",
+  "id": "e0fa466b-d887-5bac-97af-9b91f6bfc090",
   "displayName": "SKV365-CA-Core-004-BlockNonAllowedCountries",
   "state": "enabledForReportingButNotEnforced",
   "conditions": {

@@ -1,4 +1,8 @@
 {
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('372d2134-fced-5fb2-ad0e-2a12bd6b8588')",
+  "id": "372d2134-fced-5fb2-ad0e-2a12bd6b8588",
   "displayName": "SKV365-CA-Core-006-BlockDeviceCodeFlow",
   "state": "enabledForReportingButNotEnforced",
   "conditions": {

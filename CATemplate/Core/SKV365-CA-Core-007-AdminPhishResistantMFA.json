@@ -1,4 +1,8 @@
 {
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+  "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
+  "@odata.id": "identity/conditionalAccess/policies('5a94954a-a7a3-5ebc-9732-319f04f84536')",
+  "id": "5a94954a-a7a3-5ebc-9732-319f04f84536",
   "displayName": "SKV365-CA-Core-007-AdminPhishResistantMFA",
   "state": "enabledForReportingButNotEnforced",
   "conditions": {
