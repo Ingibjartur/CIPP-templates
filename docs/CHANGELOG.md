@@ -1,5 +1,20 @@
 # Repo layout history
 
+## 2026-09-12 (3) - Core-006 DRS exclusion, Core-004 Iceland, named location template
+- `Core-006`: added Device Registration Service (`01cb2876-7ebd-4aa4-9cc9-d28bd4d359a9`) to
+  `excludeApplications`. Microsoft enforces authentication-flows policies against that resource
+  for any policy targeting all resources, so device-code-flow device registration would otherwise
+  break.
+- `Core-004`: replaced the literal token `{NL-AllowedCountries-Id}` with the named location's
+  display name `SKV365-NL-AllowedCountries`. Referencing it by ID is not possible - Graph assigns
+  its own object id when the named location is created in a tenant, so our repo id can never match.
+- Added `NamedLocations/SKV365-NL-AllowedCountries.json`, a `countryNamedLocation` containing `IS`
+  only, `includeUnknownCountriesAndRegions: false`, `countryLookupMethod: clientIpAddress`.
+- `Core-003` left unchanged. Blocking Safari on mobile for the Office 365 suite is intended.
+
+Policy bodies otherwise unchanged - verified by field-level diff, 1 change in 004, 1 in 006,
+0 in the other four.
+
 ## 2026-09-12 (2) - add @odata type markers and id
 Renaming the folder to `CATemplate` did not help: under a clean test (old folder deleted from the
 repo, all SKV365 rows deleted from CIPP) all six still imported as Intune templates. Folder name

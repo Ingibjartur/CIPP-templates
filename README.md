@@ -11,7 +11,8 @@ Source of truth for Wise's Skýjavakt Conditional Access baseline. CIPP syncs fr
       FLLite/
       FLCore/
       FLEss/
-    docs/        internal notes - not read by CIPP
+    NamedLocations/   country named locations referenced by the policies
+    docs/             internal notes - not read by CIPP
 
 **The folder name does not select the template type.** CIPP classifies a repo template by its
 JSON content. `CATemplate/` is our own organising choice; the tier folder below it is the category
@@ -64,15 +65,22 @@ Fields deliberately **not** included: `createdDateTime`, `modifiedDateTime`, `@o
 | `SKV365-CA-Global-Exclusions` | Security group | all Core policies |
 | `SKV365-CA-Global-NoIntuneLicence` | Security group | Core-003 |
 | `SKV365-CA-Global-TravelException` | Security group | Core-004 |
-| Allowed-countries named location | Named location | Core-004 |
+| `SKV365-NL-AllowedCountries` | Named location | Core-004 |
 
 `SKV365-CA-Global-Exclusions` must contain the break-glass accounts **before** enforcement.
 A policy deployed against an empty exclusion group has no break-glass path.
 
 ## Known open items
 
-- `Core-004` carries the literal token `{NL-AllowedCountries-Id}`. The Command Center fills it
-  from an answer file; a statically synced repo has no equivalent step. Unresolved.
-- Whether CIPP resolves `SKV365-CA-Global-Exclusions` to an object ID at deploy time is
-  unverified. If it does not, policies deploy with no break-glass exclusion.
+- **Whether CIPP resolves display names to object IDs at deploy time is unverified.** This is the
+  one that matters. Two things depend on it: `SKV365-CA-Global-*` groups in every policy, and
+  `SKV365-NL-AllowedCountries` in Core-004. If CIPP does not substitute, policies deploy with no
+  break-glass exclusion and Core-004 excludes nothing. One deploy test settles both.
+  The named location's `id` in this repo is our own deterministic value and will NOT match the
+  object Graph creates in a tenant, so referencing it by ID is not an option.
+- `Core-003` blocks Safari on iOS and Android for the Office 365 suite. Deliberate - app
+  protection can only be satisfied by Edge on mobile. It does not cover Microsoft resources
+  outside the Office 365 suite (Azure portal, Entra admin, Power BI) or third-party SSO apps.
+- Exclusion group existence is checked at deploy, membership is not. Confirm
+  `SKV365-CA-Global-Exclusions` contains the break-glass accounts before enforcement.
 - Core tier numbering skips 005.

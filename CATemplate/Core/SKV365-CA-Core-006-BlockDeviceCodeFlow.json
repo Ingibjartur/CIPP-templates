@@ -13,7 +13,9 @@
       "includeApplications": [
         "All"
       ],
-      "excludeApplications": []
+      "excludeApplications": [
+        "01cb2876-7ebd-4aa4-9cc9-d28bd4d359a9"
+      ]
     },
     "users": {
       "includeUsers": [

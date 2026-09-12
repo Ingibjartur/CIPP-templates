@@ -1,0 +1,12 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/namedLocations/$entity",
+  "@odata.type": "#microsoft.graph.countryNamedLocation",
+  "@odata.id": "identity/conditionalAccess/namedLocations('c01b3502-3b56-5c74-8d04-85ff1a1a9609')",
+  "id": "c01b3502-3b56-5c74-8d04-85ff1a1a9609",
+  "displayName": "SKV365-NL-AllowedCountries",
+  "countriesAndRegions": [
+    "IS"
+  ],
+  "includeUnknownCountriesAndRegions": false,
+  "countryLookupMethod": "clientIpAddress"
+}

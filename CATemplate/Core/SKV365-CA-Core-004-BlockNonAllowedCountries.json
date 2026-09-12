@@ -33,7 +33,7 @@
         "All"
       ],
       "excludeLocations": [
-        "{NL-AllowedCountries-Id}"
+        "SKV365-NL-AllowedCountries"
       ]
     }
   },
