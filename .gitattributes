@@ -1,0 +1,4 @@
+# CIPP reads these files verbatim. Keep them LF so the committed bytes match what
+# the repo documents, regardless of which machine checks them out.
+*.json text eol=lf
+*.md   text eol=lf
