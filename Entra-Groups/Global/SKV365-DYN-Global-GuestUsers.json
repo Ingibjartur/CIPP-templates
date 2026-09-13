@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-Global-GuestUsers",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNGlobalGuestUsers",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(user.userType -eq \"Guest\")",
+  "membershipRuleProcessingState": "On",
+  "description": "All guest/external users",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "Global"
+  }
+}

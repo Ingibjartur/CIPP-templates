@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-ROLE-Global-HelpDesk",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365ROLEGlobalHelpDesk",
+  "groupTypes": [],
+  "description": "Customer IT staff with helpdesk permissions",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "ROLE",
+    "tier": "Global"
+  }
+}
