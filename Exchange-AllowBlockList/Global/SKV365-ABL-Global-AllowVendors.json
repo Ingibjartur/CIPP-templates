@@ -1,0 +1,13 @@
+{
+  "TemplateName": "SKV365-ABL-Global-AllowVendors",
+  "entries": [
+    {
+      "Entries": "{TRUSTED-VENDOR-DOMAIN}",
+      "ListType": "Sender",
+      "Notes": "Per-customer trusted vendor allow entry (placeholder).",
+      "Action": "Allow",
+      "NoExpiration": true
+    }
+  ],
+  "_note": "Per-customer placeholder. Add only genuinely trusted vendor domains; over-allowing weakens filtering."
+}

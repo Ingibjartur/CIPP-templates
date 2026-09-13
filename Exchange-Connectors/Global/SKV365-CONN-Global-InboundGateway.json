@@ -1,0 +1,15 @@
+{
+  "Name": "SKV365-CONN-Global-InboundGateway",
+  "ConnectorType": "Partner",
+  "Comment": "Accept mail from third-party security gateway (enhanced filtering). SITUATIONAL.",
+  "Enabled": false,
+  "SenderDomains": [
+    "*"
+  ],
+  "RequireTls": true,
+  "RestrictDomainsToIPAddresses": true,
+  "SenderIPAddresses": [
+    "{GATEWAY-IP-RANGE}"
+  ],
+  "_note": "Replace SenderIPAddresses with the gateway egress IPs; add those IPs to the connection filter allow list."
+}

@@ -1,0 +1,22 @@
+{
+  "@odata.type": "#microsoft.graph.androidManagedAppProtection",
+  "displayName": "SKV365-APP-Core-MAMAndroid",
+  "description": "Android app protection (MAM).",
+  "periodOfflineBeforeAccessCheck": "PT12H",
+  "pinRequired": true,
+  "maximumPinRetries": 5,
+  "simplePinBlocked": true,
+  "minimumPinLength": 6,
+  "allowedDataStorageLocations": [
+    "oneDriveForBusiness",
+    "sharePoint"
+  ],
+  "dataBackupBlocked": true,
+  "managedBrowserToOpenLinksRequired": true,
+  "saveAsBlocked": true,
+  "contactSyncBlocked": true,
+  "screenCaptureBlocked": true,
+  "_assignment": {
+    "targetGroup": "SKV365-APP-Core-MAMAndroid"
+  }
+}

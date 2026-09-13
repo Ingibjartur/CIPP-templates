@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLLight-ConfigMobile",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLLightConfigMobile",
+  "groupTypes": [],
+  "description": "Frontline Core mobile-only configuration profile",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLLight"
+  }
+}

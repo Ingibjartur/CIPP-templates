@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.winGetApp",
+  "displayName": "SKV365-APP-Ess-TeamsDesktop",
+  "description": "Microsoft Teams desktop.",
+  "publisher": "Microsoft",
+  "packageIdentifier": "XP8BT8DW290MPQ",
+  "installExperience": {
+    "runAsAccount": "user"
+  },
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-Ess-TeamsDesktop"
+  }
+}

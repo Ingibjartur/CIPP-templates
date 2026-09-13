@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-FLEss-F3Users",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNFLEssF3Users",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(user.assignedPlans -any (assignedPlan.servicePlanId -eq \"{F3-SPID}\"))",
+  "membershipRuleProcessingState": "On",
+  "description": "All M365 F3 licensed users",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "FLEss"
+  }
+}

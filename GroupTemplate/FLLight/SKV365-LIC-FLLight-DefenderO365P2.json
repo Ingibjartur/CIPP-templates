@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-LIC-FLLight-DefenderO365P2",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365LICFLLightDefenderO365P2",
+  "groupTypes": [],
+  "description": "FL Core — Defender for Office 365 P2",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "LIC",
+    "tier": "FLLight"
+  }
+}

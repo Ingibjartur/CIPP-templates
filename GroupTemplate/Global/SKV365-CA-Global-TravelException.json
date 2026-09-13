@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-Global-TravelException",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CAGlobalTravelException",
+  "groupTypes": [],
+  "description": "Time-boxed exception from the country allow-list (SKV365-CA-Core-004). Members can sign in from outside the allowed countries. Membership is temporary and reviewed monthly.",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "Global"
+  }
+}

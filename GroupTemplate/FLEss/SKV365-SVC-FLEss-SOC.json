@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-FLEss-SOC",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCFLEssSOC",
+  "groupTypes": [],
+  "description": "Frontline Essential — 24/7 SOC monitoring",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "FLEss"
+  }
+}

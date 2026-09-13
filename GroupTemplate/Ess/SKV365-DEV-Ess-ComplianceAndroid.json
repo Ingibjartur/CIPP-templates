@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-Ess-ComplianceAndroid",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVEssComplianceAndroid",
+  "groupTypes": [],
+  "description": "Android device compliance policy assignment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "Ess"
+  }
+}

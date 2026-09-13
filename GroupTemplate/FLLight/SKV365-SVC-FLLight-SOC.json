@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-FLLight-SOC",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCFLLightSOC",
+  "groupTypes": [],
+  "description": "FLW Light — ConnectWise SOC MD Office monitoring",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "FLLight"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#microsoft.graph.iosCompliancePolicy",
+  "displayName": "SKV365-POL-FLEss-ComplianceIOS",
+  "description": "iOS compliance baseline.",
+  "passcodeRequired": true,
+  "passcodeMinimumLength": 6,
+  "passcodeRequiredType": "numeric",
+  "passcodeMinutesOfInactivityBeforeLock": 15,
+  "osMinimumVersion": "16.0",
+  "securityBlockJailbrokenDevices": true,
+  "deviceThreatProtectionEnabled": true,
+  "deviceThreatProtectionRequiredSecurityLevel": "medium",
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasscodeRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationTemplateId": "",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-FLEss-ComplianceIOS"
+  }
+}

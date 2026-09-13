@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLLight-IntuneEnrollment",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLLightIntuneEnrollment",
+  "groupTypes": [],
+  "description": "All users allowed to enroll devices in Intune  [Frontline copy of SKV365-DEV-Ess-IntuneEnrollment]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLLight"
+  }
+}

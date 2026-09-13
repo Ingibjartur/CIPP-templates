@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+  "displayName": "SKV365-AF-Ess-CorporateWindows",
+  "description": "Corporate-owned Windows devices only.",
+  "platform": "windows10AndLater",
+  "rule": "(device.deviceOwnership -eq \"Corporate\")",
+  "assignmentFilterManagementType": "devices"
+}

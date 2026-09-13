@@ -1,0 +1,15 @@
+{
+  "Name": "SKV365-CONN-Global-OutboundSmartHost",
+  "ConnectorType": "Partner",
+  "Comment": "Route outbound mail via smart host. SITUATIONAL — replace SmartHosts.",
+  "Enabled": false,
+  "UseMXRecord": false,
+  "SmartHosts": [
+    "smarthost.example.is"
+  ],
+  "TlsSettings": "EncryptionOnly",
+  "RecipientDomains": [
+    "*"
+  ],
+  "IsTransportRuleScoped": false
+}

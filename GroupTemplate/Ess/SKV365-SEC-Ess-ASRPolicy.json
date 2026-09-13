@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-Ess-ASRPolicy",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECEssASRPolicy",
+  "groupTypes": [],
+  "description": "Attack Surface Reduction policy assignment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "Ess"
+  }
+}

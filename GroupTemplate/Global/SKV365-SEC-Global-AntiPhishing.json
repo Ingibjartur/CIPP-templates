@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-Global-AntiPhishing",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECGlobalAntiPhishing",
+  "groupTypes": [],
+  "description": "Anti-phishing policy assignment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "Global"
+  }
+}

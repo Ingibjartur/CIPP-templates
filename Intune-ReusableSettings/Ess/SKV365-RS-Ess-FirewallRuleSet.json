@@ -1,0 +1,19 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementReusablePolicySetting",
+  "displayName": "SKV365-RS-Ess-FirewallRuleSet",
+  "description": "Reusable firewall rule group referenced by the endpoint firewall policy.",
+  "settingInstance": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+    "settingDefinitionId": "vendor_msft_firewall_mdmstore_dynamickeywords_addresses",
+    "simpleSettingCollectionValue": [
+      {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+        "value": "{RULE-ID-1}"
+      },
+      {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+        "value": "{RULE-ID-2}"
+      }
+    ]
+  }
+}

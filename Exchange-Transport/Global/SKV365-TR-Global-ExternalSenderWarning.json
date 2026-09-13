@@ -1,0 +1,16 @@
+{
+  "Name": "SKV365-TR-Global-ExternalSenderWarning",
+  "Comments": "Prepend external warning banner to inbound external mail.",
+  "Enabled": false,
+  "Priority": 0,
+  "Mode": "Enforce",
+  "FromScope": "NotInOrganization",
+  "SentToScope": "InOrganization",
+  "ApplyHtmlDisclaimerLocation": "Prepend",
+  "ApplyHtmlDisclaimerText": "<div style=\"background:#FFF4CE;border:1px solid #E0C200;padding:8px;font-family:Segoe UI,sans-serif;\"><strong>[EXTERNAL]</strong> This message originated outside your organisation. Take care with links and attachments.</div>",
+  "ApplyHtmlDisclaimerFallbackAction": "Wrap",
+  "ExceptIfHeaderContainsMessageHeader": "X-SKV365-Skip-ExternalBanner",
+  "ExceptIfHeaderContainsWords": [
+    "true"
+  ]
+}

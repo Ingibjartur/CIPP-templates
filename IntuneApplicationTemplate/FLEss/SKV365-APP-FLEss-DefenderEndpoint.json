@@ -1,0 +1,11 @@
+{
+  "@odata.type": "#microsoft.graph.winGetApp",
+  "displayName": "SKV365-APP-FLEss-DefenderEndpoint",
+  "description": "Microsoft Defender for Endpoint onboarding.",
+  "publisher": "Microsoft",
+  "_note": "MDE onboarding is normally via endpoint security policy; this app entry is a placeholder for the sensor where deployed as an app.",
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-FLEss-DefenderEndpoint"
+  }
+}

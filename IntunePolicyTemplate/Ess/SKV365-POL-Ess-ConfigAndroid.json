@@ -1,0 +1,11 @@
+{
+  "@odata.type": "#microsoft.graph.androidWorkProfileGeneralDeviceConfiguration",
+  "displayName": "SKV365-POL-Ess-ConfigAndroid",
+  "description": "Android work profile restrictions.",
+  "passwordRequired": true,
+  "passwordMinimumLength": 6,
+  "workProfileBlockCrossProfileCopyPaste": true,
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-ConfigAndroid"
+  }
+}

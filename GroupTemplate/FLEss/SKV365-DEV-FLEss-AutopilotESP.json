@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLEss-AutopilotESP",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLEssAutopilotESP",
+  "groupTypes": [],
+  "description": "Enrollment Status Page (ESP) target group  [Frontline copy of SKV365-DEV-Ess-AutopilotESP]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLEss"
+  }
+}

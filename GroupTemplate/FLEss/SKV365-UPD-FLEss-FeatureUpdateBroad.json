@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-UPD-FLEss-FeatureUpdateBroad",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365UPDFLEssFeatureUpdateBroad",
+  "groupTypes": [],
+  "description": "Feature update broad ring  [Frontline copy of SKV365-UPD-Ess-FeatureUpdateBroad]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "UPD",
+    "tier": "FLEss"
+  }
+}

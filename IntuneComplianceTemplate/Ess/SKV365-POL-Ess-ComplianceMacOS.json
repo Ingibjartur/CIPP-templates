@@ -1,0 +1,30 @@
+{
+  "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
+  "displayName": "SKV365-POL-Ess-ComplianceMacOS",
+  "description": "macOS compliance baseline.",
+  "passwordRequired": true,
+  "passwordMinimumLength": 8,
+  "passwordRequiredType": "alphanumeric",
+  "passwordMinutesOfInactivityBeforeLock": 15,
+  "osMinimumVersion": "13.0",
+  "storageRequireEncryption": true,
+  "systemIntegrityProtectionEnabled": true,
+  "firewallEnabled": true,
+  "gatekeeperAllowedAppSource": "macAppStoreAndIdentifiedDevelopers",
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationTemplateId": "",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-ComplianceMacOS"
+  }
+}

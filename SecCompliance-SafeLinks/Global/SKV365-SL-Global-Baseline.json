@@ -1,0 +1,20 @@
+{
+  "TemplateName": "SKV365-SL-Global-Baseline",
+  "PolicyName": "SKV365-SL-Global-Baseline",
+  "RuleName": "SKV365-SL-Global-Baseline",
+  "EnableSafeLinksForEmail": true,
+  "EnableSafeLinksForTeams": true,
+  "EnableSafeLinksForOffice": true,
+  "TrackClicks": true,
+  "ScanUrls": true,
+  "EnableForInternalSenders": false,
+  "DeliverMessageAfterScan": true,
+  "AllowClickThrough": false,
+  "DisableUrlRewrite": false,
+  "EnableOrganizationBranding": false,
+  "Priority": 0,
+  "SentToMemberOf": [
+    "SKV365-SEC-Global-SafeLinks"
+  ],
+  "State": "Enabled"
+}

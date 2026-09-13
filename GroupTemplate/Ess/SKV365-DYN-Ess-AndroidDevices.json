@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-Ess-AndroidDevices",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNEssAndroidDevices",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(device.deviceOSType -eq \"Android\")",
+  "membershipRuleProcessingState": "On",
+  "description": "Android device targeting",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "Ess"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-FL-AllUsers",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CAFLAllUsers",
+  "groupTypes": [],
+  "description": "All Frontline users (F1 + F3 combined) — shared FL policies",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "FL"
+  }
+}

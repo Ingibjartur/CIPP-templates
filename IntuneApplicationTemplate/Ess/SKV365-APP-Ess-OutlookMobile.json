@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.managedIOSStoreApp",
+  "displayName": "SKV365-APP-Ess-OutlookMobile",
+  "description": "Outlook mobile (iOS/Android).",
+  "publisher": "Microsoft",
+  "appStoreUrl": "https://apps.apple.com/app/microsoft-outlook/id951937596",
+  "_note": "Create matching managedAndroidStoreApp for Android.",
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-Ess-OutlookMobile"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "SKV365-TR-Global-BlockAutoForward",
+  "Comments": "Reject mail auto-forwarded to external recipients.",
+  "Enabled": false,
+  "Priority": 1,
+  "Mode": "Enforce",
+  "FromScope": "InOrganization",
+  "SentToScope": "NotInOrganization",
+  "MessageTypeMatches": "AutoForward",
+  "RejectMessageReasonText": "Auto-forwarding to external recipients is not permitted.",
+  "RejectMessageEnhancedStatusCode": "5.7.1"
+}

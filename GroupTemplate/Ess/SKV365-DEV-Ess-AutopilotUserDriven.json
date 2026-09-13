@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-Ess-AutopilotUserDriven",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVEssAutopilotUserDriven",
+  "groupTypes": [],
+  "description": "User-driven Autopilot deployment profile",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "Ess"
+  }
+}

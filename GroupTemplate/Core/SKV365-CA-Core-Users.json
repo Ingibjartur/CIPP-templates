@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-Core-Users",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CACoreUsers",
+  "groupTypes": [],
+  "description": "Core office users — CA targeting",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "Core"
+  }
+}

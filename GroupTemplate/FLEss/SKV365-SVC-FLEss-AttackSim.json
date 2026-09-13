@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-FLEss-AttackSim",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCFLEssAttackSim",
+  "groupTypes": [],
+  "description": "Frontline Essential — quarterly phishing simulation",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "FLEss"
+  }
+}

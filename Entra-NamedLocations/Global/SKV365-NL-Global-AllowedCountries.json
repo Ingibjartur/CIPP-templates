@@ -1,0 +1,9 @@
+{
+  "@odata.type": "#microsoft.graph.countryNamedLocation",
+  "displayName": "SKV365-NL-Global-AllowedCountries",
+  "countriesAndRegions": [
+    "IS"
+  ],
+  "includeUnknownCountriesAndRegions": false,
+  "countryLookupMethod": "clientIpAddress"
+}

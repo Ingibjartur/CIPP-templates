@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLLight-ConfigIOS",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLLightConfigIOS",
+  "groupTypes": [],
+  "description": "iOS configuration profile (restrictions, Wi-Fi, VPN, email)  [Frontline copy of SKV365-DEV-Ess-ConfigIOS]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLLight"
+  }
+}

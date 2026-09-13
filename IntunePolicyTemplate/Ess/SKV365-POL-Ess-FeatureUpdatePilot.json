@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.windowsFeatureUpdateProfile",
+  "displayName": "SKV365-POL-Ess-FeatureUpdatePilot",
+  "description": "Feature update pilot ring.",
+  "featureUpdateVersion": "Windows 11, version 23H2",
+  "rolloutSettings": {
+    "offerStartDateTimeInUTC": null
+  },
+  "_assignment": {
+    "targetGroup": "SKV365-UPD-Ess-FeatureUpdatePilot"
+  }
+}

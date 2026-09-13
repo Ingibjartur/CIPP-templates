@@ -1,0 +1,16 @@
+{
+  "TemplateName": "SKV365-JIT-Global-GlobalAdmin",
+  "AdminRoles": [
+    {
+      "label": "Global Administrator",
+      "value": "62e90394-69f5-4237-9190-012177145e10"
+    }
+  ],
+  "ExpirationValue": 4,
+  "ExpirationUnit": "Hours",
+  "ExpireAction": "RemoveRoles",
+  "UseTAP": true,
+  "RequireApproval": false,
+  "EligibleMembersGroup": "SKV365-ROLE-Global-GlobalAdmins",
+  "Notes": "Highest privilege. Consider DisableAccount as expiry action."
+}

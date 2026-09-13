@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-Prem-SensitivityLabels",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECPremSensitivityLabels",
+  "groupTypes": [],
+  "description": "Sensitivity label policy assignment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "Prem"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "TemplateName": "SKV365-SF-Prem-Strict",
+  "PolicyName": "SKV365-SF-Prem-Strict",
+  "RuleName": "SKV365-SF-Prem-Strict",
+  "Priority": 1,
+  "SpamAction": "Quarantine",
+  "HighConfidenceSpamAction": "Quarantine",
+  "PhishSpamAction": "Quarantine",
+  "HighConfidencePhishAction": "Quarantine",
+  "BulkSpamAction": "Quarantine",
+  "BulkThreshold": 5,
+  "QuarantineRetentionPeriod": 30,
+  "EnableEndUserSpamNotifications": true,
+  "EndUserSpamNotificationFrequency": 1,
+  "MarkAsSpamBulkMail": "On",
+  "InlineSafetyTipsEnabled": true,
+  "AllowedSenderDomains": [],
+  "BlockedSenderDomains": [],
+  "ZapEnabled": true,
+  "SentToMemberOf": [
+    "SKV365-SEC-Global-AntiSpam"
+  ],
+  "State": "Enabled"
+}

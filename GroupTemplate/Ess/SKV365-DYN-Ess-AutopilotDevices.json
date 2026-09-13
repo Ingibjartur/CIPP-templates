@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-Ess-AutopilotDevices",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNEssAutopilotDevices",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(device.devicePhysicalIds -any _ -contains \"[ZTDID]\")",
+  "membershipRuleProcessingState": "On",
+  "description": "All Autopilot-registered devices",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "Ess"
+  }
+}

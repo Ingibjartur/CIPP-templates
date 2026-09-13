@@ -1,0 +1,16 @@
+{
+  "TemplateName": "SKV365-JIT-Global-ExchangeAdmin",
+  "AdminRoles": [
+    {
+      "label": "Exchange Administrator",
+      "value": "29232cdf-9323-42fd-ade2-1d097af3e4de"
+    }
+  ],
+  "ExpirationValue": 8,
+  "ExpirationUnit": "Hours",
+  "ExpireAction": "RemoveRoles",
+  "UseTAP": true,
+  "RequireApproval": false,
+  "EligibleMembersGroup": "SKV365-ROLE-Global-ExchangeAdmins",
+  "Notes": "P1-tenant JIT elevation. Eligible accounts must be members of SKV365-ROLE-Global-ExchangeAdmins."
+}

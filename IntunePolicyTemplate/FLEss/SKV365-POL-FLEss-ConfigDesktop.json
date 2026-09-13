@@ -1,0 +1,14 @@
+{
+  "name": "SKV365-POL-FLEss-ConfigDesktop",
+  "description": "Kiosk / shared-PC configuration.",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "templateReference": {
+    "templateId": ""
+  },
+  "settings": [],
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-FLEss-ConfigDesktop"
+  },
+  "_note": "Shared-PC / assigned-access kiosk settings. Populate 'settings' for SharedPC mode + single-app kiosk."
+}

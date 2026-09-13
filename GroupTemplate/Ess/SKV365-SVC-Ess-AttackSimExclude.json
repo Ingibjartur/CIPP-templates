@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-Ess-AttackSimExclude",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCEssAttackSimExclude",
+  "groupTypes": [],
+  "description": "Users excluded from attack simulations (admins, executives)",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "Ess"
+  }
+}

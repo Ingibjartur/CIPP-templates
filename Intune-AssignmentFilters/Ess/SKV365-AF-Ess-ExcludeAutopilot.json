@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+  "displayName": "SKV365-AF-Ess-ExcludeAutopilot",
+  "description": "Exclude devices still in Autopilot enrolment.",
+  "platform": "windows10AndLater",
+  "rule": "(device.enrollmentProfileName -ne \"Autopilot\")",
+  "assignmentFilterManagementType": "devices"
+}

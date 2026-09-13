@@ -1,0 +1,11 @@
+{
+  "@odata.type": "#microsoft.graph.macOSGeneralDeviceConfiguration",
+  "displayName": "SKV365-POL-Ess-ConfigMacOS",
+  "description": "macOS restrictions (FileVault, Gatekeeper).",
+  "passwordBlockSimple": true,
+  "passwordRequired": true,
+  "passwordMinimumLength": 8,
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-ConfigMacOS"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "TemplateName": "SKV365-ABL-Ess-AllowSimulation",
+  "entries": [
+    {
+      "Entries": "phishingsimulation.example",
+      "ListType": "Sender",
+      "Notes": "Attack-simulation sender domain — allow so training mail is not filtered.",
+      "Action": "Allow",
+      "NoExpiration": true
+    },
+    {
+      "Entries": "https://landing.phishingsimulation.example/*",
+      "ListType": "Url",
+      "Notes": "Attack-simulation landing URL allow entry.",
+      "Action": "Allow",
+      "NoExpiration": true
+    }
+  ],
+  "_note": "Replace placeholder domains/URLs with your phishing-sim vendor values. Pairs with SKV365-TR-Global-BypassFilterForSimulation."
+}

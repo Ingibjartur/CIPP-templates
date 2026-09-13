@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-FLLight-F1Users",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNFLLightF1Users",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(user.assignedPlans -any (assignedPlan.servicePlanId -eq \"{F1-SPID}\"))",
+  "membershipRuleProcessingState": "On",
+  "description": "All M365 F1 licensed users",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "FLLight"
+  }
+}

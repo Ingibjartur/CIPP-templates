@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+  "displayName": "SKV365-AF-Core-PersonalMobile",
+  "description": "Personally-owned mobile devices.",
+  "platform": "androidMobileApplicationManagement",
+  "rule": "(device.deviceOwnership -eq \"Personal\")",
+  "assignmentFilterManagementType": "apps"
+}

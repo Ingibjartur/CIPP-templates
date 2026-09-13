@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLLight-EnrollmentRestrictions",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLLightEnrollmentRestrictions",
+  "groupTypes": [],
+  "description": "Users with enrollment restrictions (device count/type limits)  [Frontline copy of SKV365-DEV-Ess-EnrollmentRestrictions]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLLight"
+  }
+}

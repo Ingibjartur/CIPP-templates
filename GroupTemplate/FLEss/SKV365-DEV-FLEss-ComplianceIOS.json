@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLEss-ComplianceIOS",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLEssComplianceIOS",
+  "groupTypes": [],
+  "description": "iOS device compliance policy assignment  [Frontline copy of SKV365-DEV-Ess-ComplianceIOS]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLEss"
+  }
+}

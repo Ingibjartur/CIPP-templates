@@ -1,0 +1,14 @@
+{
+  "name": "SKV365-POL-FLEss-ConfigWindows-Security",
+  "description": "BitLocker, LAPS, Defender, firewall baseline.",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "templateReference": {
+    "templateId": ""
+  },
+  "settings": [],
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-FLEss-ConfigWindows"
+  },
+  "_note": "Settings-catalog policy. Populate 'settings' from the Endpoint Security baseline export; structure intentionally empty here."
+}

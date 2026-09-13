@@ -1,0 +1,20 @@
+{
+  "TemplateName": "SKV365-JIT-Prem-PIMElevation",
+  "AdminRoles": [
+    {
+      "label": "Global Administrator",
+      "value": "62e90394-69f5-4237-9190-012177145e10"
+    },
+    {
+      "label": "Security Administrator",
+      "value": "194ae4cb-b126-40b2-bd5b-6091b380977d"
+    }
+  ],
+  "ExpirationValue": 4,
+  "ExpirationUnit": "Hours",
+  "ExpireAction": "RemoveRoles",
+  "UseTAP": true,
+  "RequireApproval": true,
+  "EligibleMembersGroup": "SKV365-ROLE-Prem-PIMJITAdmins",
+  "Notes": "P2 tenants: prefer native PIM; keep as break-glass fallback."
+}

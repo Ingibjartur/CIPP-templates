@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.webApp",
+  "displayName": "SKV365-APP-FLEss-OfficeWebApps",
+  "description": "Frontline Essential — Office web apps shortcut.",
+  "publisher": "Microsoft",
+  "appUrl": "https://www.office.com",
+  "useManagedBrowser": true,
+  "_assignment": {
+    "intent": "available",
+    "targetGroup": "SKV365-APP-FLEss-OfficeWebApps"
+  }
+}

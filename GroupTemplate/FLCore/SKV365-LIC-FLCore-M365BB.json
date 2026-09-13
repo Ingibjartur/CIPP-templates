@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-LIC-FLCore-M365BB",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365LICFLCoreM365BB",
+  "groupTypes": [],
+  "description": "FLW Core — Microsoft 365 Business Basic license assignment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "LIC",
+    "tier": "FLCore"
+  }
+}

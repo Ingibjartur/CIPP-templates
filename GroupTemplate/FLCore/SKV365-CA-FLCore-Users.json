@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-FLCore-Users",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CAFLCoreUsers",
+  "groupTypes": [],
+  "description": "FLW Core — FLW Core (Business Basic) users — CA targeting; nested into `SKV365-CA-FL-AllUsers",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "FLCore"
+  }
+}

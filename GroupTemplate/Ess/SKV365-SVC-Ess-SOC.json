@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-Ess-SOC",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCEssSOC",
+  "groupTypes": [],
+  "description": "Essential users — 24/7 SOC monitoring",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "Ess"
+  }
+}

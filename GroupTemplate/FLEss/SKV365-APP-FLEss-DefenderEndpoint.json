@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-APP-FLEss-DefenderEndpoint",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365APPFLEssDefenderEndpoint",
+  "groupTypes": [],
+  "description": "Microsoft Defender for Endpoint app deployment  [Frontline copy of SKV365-APP-Ess-DefenderEndpoint]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "APP",
+    "tier": "FLEss"
+  }
+}

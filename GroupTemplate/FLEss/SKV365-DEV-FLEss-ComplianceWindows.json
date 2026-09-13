@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-FLEss-ComplianceWindows",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVFLEssComplianceWindows",
+  "groupTypes": [],
+  "description": "Windows device compliance policy assignment  [Frontline copy of SKV365-DEV-Ess-ComplianceWindows]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "FLEss"
+  }
+}

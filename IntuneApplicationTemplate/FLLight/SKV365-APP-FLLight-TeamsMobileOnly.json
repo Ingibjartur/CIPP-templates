@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.managedIOSStoreApp",
+  "displayName": "SKV365-APP-FLLight-TeamsMobileOnly",
+  "description": "Frontline Core — Teams mobile only.",
+  "publisher": "Microsoft",
+  "appStoreUrl": "https://apps.apple.com/app/microsoft-teams/id1113153706",
+  "_note": "FL Core gets Teams mobile only; no other apps deployed.",
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-FLLight-TeamsMobileOnly"
+  }
+}

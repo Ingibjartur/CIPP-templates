@@ -1,0 +1,16 @@
+{
+  "TemplateName": "SKV365-JIT-Global-Helpdesk",
+  "AdminRoles": [
+    {
+      "label": "Helpdesk Administrator",
+      "value": "729827e3-9c14-49f7-bb1b-9608f156bbb8"
+    }
+  ],
+  "ExpirationValue": 8,
+  "ExpirationUnit": "Hours",
+  "ExpireAction": "RemoveRoles",
+  "UseTAP": true,
+  "RequireApproval": false,
+  "EligibleMembersGroup": "SKV365-ROLE-Global-HelpDesk",
+  "Notes": "P1-tenant JIT elevation. Eligible accounts must be members of SKV365-ROLE-Global-HelpDesk."
+}

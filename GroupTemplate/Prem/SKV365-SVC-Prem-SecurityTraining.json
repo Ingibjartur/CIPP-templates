@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-Prem-SecurityTraining",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCPremSecurityTraining",
+  "groupTypes": [],
+  "description": "Premium — Awergo security awareness training enrollment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "Prem"
+  }
+}

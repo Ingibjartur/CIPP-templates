@@ -1,0 +1,14 @@
+{
+  "name": "SKV365-POL-Ess-ConfigWindows-ASR",
+  "description": "Attack Surface Reduction rules.",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "templateReference": {
+    "templateId": ""
+  },
+  "settings": [],
+  "_assignment": {
+    "targetGroup": "SKV365-SEC-Ess-ASRPolicy"
+  },
+  "_note": "Settings-catalog ASR rules. Populate 'settings' with ASR rule GUIDs set to Block."
+}

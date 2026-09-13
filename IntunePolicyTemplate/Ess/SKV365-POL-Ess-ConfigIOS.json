@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.iosGeneralDeviceConfiguration",
+  "displayName": "SKV365-POL-Ess-ConfigIOS",
+  "description": "iOS restrictions, Wi-Fi, email.",
+  "passcodeRequired": true,
+  "passcodeMinimumLength": 6,
+  "iCloudBlockBackup": true,
+  "cameraBlocked": false,
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-ConfigIOS"
+  }
+}

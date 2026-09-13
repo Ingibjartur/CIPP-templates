@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-Global-SafeAttachments",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECGlobalSafeAttachments",
+  "groupTypes": [],
+  "description": "Safe Attachments policy assignment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "Global"
+  }
+}

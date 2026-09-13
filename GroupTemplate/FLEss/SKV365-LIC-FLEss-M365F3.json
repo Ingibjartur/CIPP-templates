@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-LIC-FLEss-M365F3",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365LICFLEssM365F3",
+  "groupTypes": [],
+  "description": "FL Essential — Microsoft 365 F3",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "LIC",
+    "tier": "FLEss"
+  }
+}

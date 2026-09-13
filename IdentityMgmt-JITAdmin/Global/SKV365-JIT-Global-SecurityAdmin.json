@@ -1,0 +1,16 @@
+{
+  "TemplateName": "SKV365-JIT-Global-SecurityAdmin",
+  "AdminRoles": [
+    {
+      "label": "Security Administrator",
+      "value": "194ae4cb-b126-40b2-bd5b-6091b380977d"
+    }
+  ],
+  "ExpirationValue": 8,
+  "ExpirationUnit": "Hours",
+  "ExpireAction": "RemoveRoles",
+  "UseTAP": true,
+  "RequireApproval": false,
+  "EligibleMembersGroup": "SKV365-ROLE-Global-SecurityAdmins",
+  "Notes": "P1-tenant JIT elevation. Eligible accounts must be members of SKV365-ROLE-Global-SecurityAdmins."
+}

@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-ROLE-Global-CAAdmins",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365ROLEGlobalCAAdmins",
+  "groupTypes": [],
+  "description": "Conditional Access Administrator role members",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "ROLE",
+    "tier": "Global"
+  }
+}

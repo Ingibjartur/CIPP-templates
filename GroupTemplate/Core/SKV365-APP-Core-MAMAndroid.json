@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-APP-Core-MAMAndroid",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365APPCoreMAMAndroid",
+  "groupTypes": [],
+  "description": "Android Mobile App Management (app protection) policy",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "APP",
+    "tier": "Core"
+  }
+}

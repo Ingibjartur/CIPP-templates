@@ -1,0 +1,11 @@
+{
+  "TemplateName": "SKV365-CON-Prem-DPO",
+  "displayName": "Data Protection Officer",
+  "firstName": "Data Protection",
+  "lastName": "Officer",
+  "email": "dpo@skyjavakt.is",
+  "companyName": "Skýjavakt",
+  "city": "Reykjavík",
+  "countryOrRegion": "IS",
+  "hidden": false
+}

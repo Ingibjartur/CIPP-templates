@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-APP-Ess-TeamsMobile",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365APPEssTeamsMobile",
+  "groupTypes": [],
+  "description": "Teams mobile app deployment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "APP",
+    "tier": "Ess"
+  }
+}

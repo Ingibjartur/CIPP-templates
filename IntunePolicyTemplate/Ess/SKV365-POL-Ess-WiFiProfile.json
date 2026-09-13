@@ -1,0 +1,12 @@
+{
+  "@odata.type": "#microsoft.graph.windowsWifiConfiguration",
+  "displayName": "SKV365-POL-Ess-WiFiProfile",
+  "description": "Corporate Wi-Fi (cert-based).",
+  "ssid": "{CUSTOMER-SSID}",
+  "connectAutomatically": true,
+  "wifiSecurityType": "wpa2Enterprise",
+  "_note": "Replace SSID and reference RS trusted root cert.",
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-WiFiProfile"
+  }
+}

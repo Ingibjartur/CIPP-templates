@@ -1,0 +1,30 @@
+{
+  "@odata.type": "#microsoft.graph.androidWorkProfileCompliancePolicy",
+  "displayName": "SKV365-POL-Ess-ComplianceAndroid",
+  "description": "Android work profile compliance baseline.",
+  "passwordRequired": true,
+  "passwordMinimumLength": 6,
+  "passwordRequiredType": "numericComplex",
+  "passwordMinutesOfInactivityBeforeLock": 15,
+  "osMinimumVersion": "12.0",
+  "securityBlockJailbrokenDevices": true,
+  "storageRequireEncryption": true,
+  "deviceThreatProtectionEnabled": true,
+  "deviceThreatProtectionRequiredSecurityLevel": "medium",
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationTemplateId": "",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-ComplianceAndroid"
+  }
+}

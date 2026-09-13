@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-Prem-QBRRecipients",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCPremQBRRecipients",
+  "groupTypes": [],
+  "description": "Quarterly Business Review report recipients",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "Prem"
+  }
+}

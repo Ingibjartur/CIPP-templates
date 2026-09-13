@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DEV-Ess-AutopilotSelfDeploy",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DEVEssAutopilotSelfDeploy",
+  "groupTypes": [],
+  "description": "Self-deploying Autopilot profile (kiosks, shared PCs)",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DEV",
+    "tier": "Ess"
+  }
+}

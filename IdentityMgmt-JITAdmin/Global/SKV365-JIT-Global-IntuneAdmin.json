@@ -1,0 +1,16 @@
+{
+  "TemplateName": "SKV365-JIT-Global-IntuneAdmin",
+  "AdminRoles": [
+    {
+      "label": "Intune Administrator",
+      "value": "3a2c62db-5318-420d-8d74-23affee5d9d5"
+    }
+  ],
+  "ExpirationValue": 8,
+  "ExpirationUnit": "Hours",
+  "ExpireAction": "RemoveRoles",
+  "UseTAP": true,
+  "RequireApproval": false,
+  "EligibleMembersGroup": "SKV365-ROLE-Global-IntuneAdmins",
+  "Notes": "P1-tenant JIT elevation. Eligible accounts must be members of SKV365-ROLE-Global-IntuneAdmins."
+}

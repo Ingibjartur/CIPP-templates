@@ -1,0 +1,19 @@
+{
+  "@odata.type": "#microsoft.graph.deviceManagementReusablePolicySetting",
+  "displayName": "SKV365-RS-Ess-DefenderAVExclusions",
+  "description": "Reusable Defender AV path exclusion set referenced by the antivirus policy.",
+  "settingInstance": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+    "settingDefinitionId": "device_vendor_msft_policy_config_defender_excludedpaths",
+    "simpleSettingCollectionValue": [
+      {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+        "value": "C:\\\\LOB\\\\AppData"
+      },
+      {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+        "value": "C:\\\\Program Files\\\\SkyjavaktAgent"
+      }
+    ]
+  }
+}

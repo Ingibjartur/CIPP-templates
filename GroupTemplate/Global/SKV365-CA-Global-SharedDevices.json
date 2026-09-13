@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-Global-SharedDevices",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CAGlobalSharedDevices",
+  "groupTypes": [],
+  "description": "Shared/kiosk device accounts — excluded from user-based MFA",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "Global"
+  }
+}

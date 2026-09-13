@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-Prem-ComplianceScope",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECPremComplianceScope",
+  "groupTypes": [],
+  "description": "GDPR / ISO 27001 compliance scope",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "Prem"
+  }
+}

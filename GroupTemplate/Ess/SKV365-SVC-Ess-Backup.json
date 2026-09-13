@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SVC-Ess-Backup",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SVCEssBackup",
+  "groupTypes": [],
+  "description": "Essential — M365 backup scope (Exchange, OneDrive, SharePoint)",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SVC",
+    "tier": "Ess"
+  }
+}

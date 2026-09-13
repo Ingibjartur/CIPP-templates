@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.winGetApp",
+  "displayName": "SKV365-APP-FLEss-CompanyPortal",
+  "description": "Intune Company Portal.",
+  "publisher": "Microsoft",
+  "packageIdentifier": "9WZDNCRFJ3PZ",
+  "installExperience": {
+    "runAsAccount": "user"
+  },
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-FLEss-CompanyPortal"
+  }
+}

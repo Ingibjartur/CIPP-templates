@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-Global-NoIntuneLicence",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CAGlobalNoIntuneLicence",
+  "groupTypes": [],
+  "description": "Users holding no Intune-capable licence. SKV365-CA-FLCore-Users is nested here. Excluded from every CA policy whose grant requires compliantDevice, approvedApplication or compliantApplication.",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "Global"
+  }
+}

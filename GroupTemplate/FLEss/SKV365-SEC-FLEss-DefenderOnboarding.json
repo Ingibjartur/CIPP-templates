@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-FLEss-DefenderOnboarding",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECFLEssDefenderOnboarding",
+  "groupTypes": [],
+  "description": "Defender for Endpoint device onboarding  [Frontline copy of SKV365-SEC-Ess-DefenderOnboarding]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "FLEss"
+  }
+}

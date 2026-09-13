@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-APP-Ess-TeamsDesktop",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365APPEssTeamsDesktop",
+  "groupTypes": [],
+  "description": "Teams desktop app deployment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "APP",
+    "tier": "Ess"
+  }
+}

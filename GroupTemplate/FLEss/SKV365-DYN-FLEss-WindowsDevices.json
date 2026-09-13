@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-FLEss-WindowsDevices",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNFLEssWindowsDevices",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(device.deviceOSType -eq \"Windows\")",
+  "membershipRuleProcessingState": "On",
+  "description": "Windows device targeting  [Frontline copy of SKV365-DYN-Ess-WindowsDevices]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "FLEss"
+  }
+}

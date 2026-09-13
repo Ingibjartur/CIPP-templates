@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-ROLE-Global-ExchangeAdmins",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365ROLEGlobalExchangeAdmins",
+  "groupTypes": [],
+  "description": "Exchange Administrator role members",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "ROLE",
+    "tier": "Global"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-LIC-FLLight-M365F1",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365LICFLLightM365F1",
+  "groupTypes": [],
+  "description": "FL Core — Microsoft 365 F1",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "LIC",
+    "tier": "FLLight"
+  }
+}

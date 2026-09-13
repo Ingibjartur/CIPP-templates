@@ -1,0 +1,8 @@
+{
+  "TemplateName": "SKV365-CF-Global-Default",
+  "Identity": "Default",
+  "IPAllowList": [],
+  "IPBlockList": [],
+  "EnableSafeList": false,
+  "_note": "Per-tenant singleton. Populate IPAllowList with known partner/relay IPs per customer. Keep EnableSafeList false."
+}

@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "displayName": "SKV365-POL-FLEss-UpdateRingBroad",
+  "description": "Windows Update ring — 7d quality / 7d feature deferral.",
+  "qualityUpdatesDeferralPeriodInDays": 7,
+  "featureUpdatesDeferralPeriodInDays": 7,
+  "automaticUpdateMode": "autoInstallAndRebootAtScheduledTime",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "driversExcluded": false,
+  "microsoftUpdateServiceAllowed": true,
+  "_assignment": {
+    "targetGroup": "SKV365-UPD-FLEss-BroadRing"
+  }
+}

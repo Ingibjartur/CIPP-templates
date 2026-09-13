@@ -1,0 +1,18 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-FLEss-CorporateDevices",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNFLEssCorporateDevices",
+  "groupTypes": [
+    "DynamicMembership"
+  ],
+  "membershipRule": "(device.deviceOwnership -eq \"Company\")",
+  "membershipRuleProcessingState": "On",
+  "description": "All corporate-owned devices  [Frontline copy of SKV365-DYN-Ess-CorporateDevices]",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "FLEss"
+  }
+}

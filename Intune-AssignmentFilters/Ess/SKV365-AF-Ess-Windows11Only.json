@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+  "displayName": "SKV365-AF-Ess-Windows11Only",
+  "description": "Windows 11 devices only.",
+  "platform": "windows10AndLater",
+  "rule": "(device.osVersion -startsWith \"10.0.22\")",
+  "assignmentFilterManagementType": "devices"
+}

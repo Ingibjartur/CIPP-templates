@@ -1,0 +1,10 @@
+{
+  "Name": "SKV365-TR-Global-QuarantineExecutables",
+  "Comments": "Quarantine mail with executable attachment content.",
+  "Enabled": false,
+  "Priority": 2,
+  "Mode": "Enforce",
+  "AttachmentHasExecutableContent": true,
+  "Quarantine": true,
+  "SetSCL": 9
+}

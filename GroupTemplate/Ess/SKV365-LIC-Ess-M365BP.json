@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-LIC-Ess-M365BP",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365LICEssM365BP",
+  "groupTypes": [],
+  "description": "Essential — Microsoft 365 Business Premium",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "LIC",
+    "tier": "Ess"
+  }
+}

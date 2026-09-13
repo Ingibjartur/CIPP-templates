@@ -1,0 +1,11 @@
+{
+  "@odata.type": "#microsoft.graph.win32LobApp",
+  "displayName": "SKV365-APP-Ess-LOBApps",
+  "description": "Per-customer line-of-business app placeholder.",
+  "publisher": "{CUSTOMER}",
+  "_note": "Placeholder. Replace with the customer's packaged Win32 LOB app metadata (.intunewin).",
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-Ess-LOBApps"
+  }
+}

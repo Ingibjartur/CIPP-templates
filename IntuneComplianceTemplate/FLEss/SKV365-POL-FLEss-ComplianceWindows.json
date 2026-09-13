@@ -1,0 +1,40 @@
+{
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
+  "displayName": "SKV365-POL-FLEss-ComplianceWindows",
+  "description": "Windows compliance baseline.",
+  "passwordRequired": true,
+  "passwordMinimumLength": 8,
+  "passwordRequiredType": "alphanumeric",
+  "passwordMinutesOfInactivityBeforeLock": 15,
+  "passwordPreviousPasswordBlockCount": 5,
+  "requireHealthyDeviceReport": true,
+  "osMinimumVersion": "10.0.19045",
+  "bitLockerEnabled": true,
+  "secureBootEnabled": true,
+  "codeIntegrityEnabled": true,
+  "storageRequireEncryption": true,
+  "activeFirewallRequired": true,
+  "defenderEnabled": true,
+  "rtpEnabled": true,
+  "antivirusRequired": true,
+  "antiSpywareRequired": true,
+  "tpmRequired": true,
+  "deviceThreatProtectionEnabled": true,
+  "deviceThreatProtectionRequiredSecurityLevel": "medium",
+  "scheduledActionsForRule": [
+    {
+      "ruleName": "PasswordRequired",
+      "scheduledActionConfigurations": [
+        {
+          "actionType": "block",
+          "gracePeriodHours": 24,
+          "notificationTemplateId": "",
+          "notificationMessageCCList": []
+        }
+      ]
+    }
+  ],
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-FLEss-ComplianceWindows"
+  }
+}

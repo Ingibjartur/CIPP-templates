@@ -1,0 +1,20 @@
+{
+  "TemplateName": "SKV365-SL-Prem-Strict",
+  "PolicyName": "SKV365-SL-Prem-Strict",
+  "RuleName": "SKV365-SL-Prem-Strict",
+  "EnableSafeLinksForEmail": true,
+  "EnableSafeLinksForTeams": true,
+  "EnableSafeLinksForOffice": true,
+  "TrackClicks": true,
+  "ScanUrls": true,
+  "EnableForInternalSenders": true,
+  "DeliverMessageAfterScan": true,
+  "AllowClickThrough": false,
+  "DisableUrlRewrite": false,
+  "EnableOrganizationBranding": true,
+  "Priority": 0,
+  "SentToMemberOf": [
+    "SKV365-SEC-Global-SafeLinks"
+  ],
+  "State": "Enabled"
+}

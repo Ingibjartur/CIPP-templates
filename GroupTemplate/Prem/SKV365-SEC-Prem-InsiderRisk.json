@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-SEC-Prem-InsiderRisk",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365SECPremInsiderRisk",
+  "groupTypes": [],
+  "description": "Insider Risk Management monitoring scope",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "SEC",
+    "tier": "Prem"
+  }
+}

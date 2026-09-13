@@ -1,0 +1,24 @@
+{
+  "TemplateName": "SKV365-SF-Global-Standard",
+  "PolicyName": "SKV365-SF-Global-Standard",
+  "RuleName": "SKV365-SF-Global-Standard",
+  "Priority": 0,
+  "SpamAction": "MoveToJmf",
+  "HighConfidenceSpamAction": "Quarantine",
+  "PhishSpamAction": "Quarantine",
+  "HighConfidencePhishAction": "Quarantine",
+  "BulkSpamAction": "MoveToJmf",
+  "BulkThreshold": 7,
+  "QuarantineRetentionPeriod": 30,
+  "EnableEndUserSpamNotifications": true,
+  "EndUserSpamNotificationFrequency": 1,
+  "MarkAsSpamBulkMail": "On",
+  "InlineSafetyTipsEnabled": true,
+  "AllowedSenderDomains": [],
+  "BlockedSenderDomains": [],
+  "ZapEnabled": true,
+  "SentToMemberOf": [
+    "SKV365-SEC-Global-AntiSpam"
+  ],
+  "State": "Enabled"
+}

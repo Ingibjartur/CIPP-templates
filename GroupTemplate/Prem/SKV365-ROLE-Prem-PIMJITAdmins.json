@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-ROLE-Prem-PIMJITAdmins",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365ROLEPremPIMJITAdmins",
+  "groupTypes": [],
+  "description": "PIM Just-In-Time eligible admin accounts",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "ROLE",
+    "tier": "Prem"
+  }
+}

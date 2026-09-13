@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-ROLE-Global-SharePointAdmins",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365ROLEGlobalSharePointAdmins",
+  "groupTypes": [],
+  "description": "SharePoint Administrator role members",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "ROLE",
+    "tier": "Global"
+  }
+}

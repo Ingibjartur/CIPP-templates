@@ -1,0 +1,8 @@
+{
+  "@odata.type": "#microsoft.graph.deviceAndAppManagementAssignmentFilter",
+  "displayName": "SKV365-AF-FLEss-KioskDevices",
+  "description": "Frontline Essential kiosk devices by name prefix.",
+  "platform": "windows10AndLater",
+  "rule": "(device.deviceName -startsWith \"SKV-KIOSK\")",
+  "assignmentFilterManagementType": "devices"
+}

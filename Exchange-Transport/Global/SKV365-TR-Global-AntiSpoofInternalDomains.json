@@ -1,0 +1,15 @@
+{
+  "Name": "SKV365-TR-Global-AntiSpoofInternalDomains",
+  "Comments": "Block external mail spoofing accepted domains.",
+  "Enabled": false,
+  "Priority": 3,
+  "Mode": "Enforce",
+  "FromScope": "NotInOrganization",
+  "SenderDomainIs": [
+    "{ACCEPTED-DOMAIN-1}",
+    "{ACCEPTED-DOMAIN-2}"
+  ],
+  "RejectMessageReasonText": "External mail claiming to be from an internal domain is blocked.",
+  "RejectMessageEnhancedStatusCode": "5.7.1",
+  "_note": "Replace SenderDomainIs with the tenant's accepted domains."
+}

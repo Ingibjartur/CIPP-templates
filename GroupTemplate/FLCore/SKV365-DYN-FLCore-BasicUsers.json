@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-DYN-FLCore-BasicUsers",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365DYNFLCoreBasicUsers",
+  "groupTypes": [],
+  "description": "FLW Core — Dynamic — users with the Microsoft 365 Business Basic service plan",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "DYN",
+    "tier": "FLCore"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "TemplateName": "SKV365-ABL-Global-BlockKnownBad",
+  "entries": [
+    {
+      "Entries": "{KNOWN-BAD-DOMAIN}",
+      "ListType": "Sender",
+      "Notes": "SOC-curated block entry (placeholder).",
+      "Action": "Block",
+      "NoExpiration": true
+    }
+  ],
+  "_note": "Maintained by SOC. Supports Sender, Url and FileHash list types."
+}

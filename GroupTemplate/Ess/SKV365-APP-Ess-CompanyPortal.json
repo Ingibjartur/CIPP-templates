@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-APP-Ess-CompanyPortal",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365APPEssCompanyPortal",
+  "groupTypes": [],
+  "description": "Intune Company Portal app deployment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "APP",
+    "tier": "Ess"
+  }
+}

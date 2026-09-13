@@ -1,0 +1,14 @@
+{
+  "Name": "SKV365-TR-Ess-BypassFilterForSimulation",
+  "Comments": "Bypass filtering for attack-simulation source. Pairs with SKV365-ABL-Global-AllowSimulation.",
+  "Enabled": false,
+  "Priority": 0,
+  "Mode": "Enforce",
+  "SenderDomainIs": [
+    "phishingsimulation.example"
+  ],
+  "SetSCL": -1,
+  "SetHeaderName": "X-MS-Exchange-Organization-SkipSafeLinksProcessing",
+  "SetHeaderValue": "1",
+  "_note": "Replace SenderDomainIs with your phishing-sim vendor domain(s). Highest priority so it evaluates first."
+}

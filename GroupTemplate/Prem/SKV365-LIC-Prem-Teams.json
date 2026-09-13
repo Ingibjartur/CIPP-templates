@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-LIC-Prem-Teams",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365LICPremTeams",
+  "groupTypes": [],
+  "description": "Premium — Microsoft Teams",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "LIC",
+    "tier": "Prem"
+  }
+}

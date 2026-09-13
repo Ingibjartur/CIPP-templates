@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-CA-Global-Exclusions",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365CAGlobalExclusions",
+  "groupTypes": [],
+  "description": "Master exclusion for all CA policies (break-glass accounts, service accounts)",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "CA",
+    "tier": "Global"
+  }
+}

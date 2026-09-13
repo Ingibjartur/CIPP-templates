@@ -1,0 +1,14 @@
+{
+  "@odata.type": "#microsoft.graph.group",
+  "displayName": "SKV365-APP-Ess-DefenderEndpoint",
+  "mailEnabled": false,
+  "securityEnabled": true,
+  "mailNickname": "SKV365APPEssDefenderEndpoint",
+  "groupTypes": [],
+  "description": "Microsoft Defender for Endpoint app deployment",
+  "isAssignableToRole": false,
+  "_skv365": {
+    "cat": "APP",
+    "tier": "Ess"
+  }
+}

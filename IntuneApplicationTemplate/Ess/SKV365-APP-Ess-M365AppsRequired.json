@@ -1,0 +1,26 @@
+{
+  "@odata.type": "#microsoft.graph.officeSuiteApp",
+  "displayName": "SKV365-APP-Ess-M365AppsRequired",
+  "description": "Microsoft 365 Apps — required install.",
+  "publisher": "Microsoft",
+  "useSharedComputerActivation": false,
+  "updateChannel": "current",
+  "officePlatformArchitecture": "x64",
+  "localesToInstall": [
+    "en-us",
+    "is-is"
+  ],
+  "productIds": [
+    "o365ProPlusRetail"
+  ],
+  "excludedApps": {
+    "groove": true,
+    "lync": true,
+    "bing": true
+  },
+  "shouldUninstallOlderVersionsOfOffice": true,
+  "_assignment": {
+    "intent": "required",
+    "targetGroup": "SKV365-APP-Ess-M365AppsRequired"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "@odata.type": "#microsoft.graph.windows81VpnConfiguration",
+  "displayName": "SKV365-POL-Ess-VPNProfile",
+  "description": "Corporate VPN profile.",
+  "connectionName": "Skyjavakt VPN",
+  "servers": [
+    {
+      "description": "primary",
+      "address": "vpn.{CUSTOMER}.is",
+      "isDefaultServer": true
+    }
+  ],
+  "_note": "Replace server address per customer.",
+  "_assignment": {
+    "targetGroup": "SKV365-DEV-Ess-VPNProfile"
+  }
+}
